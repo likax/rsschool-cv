@@ -89,7 +89,7 @@ _2019 - Present_
 _2018_
 
 ### English:
-* I have an IELTS Certificate (LEVEL B2)
+* I have an IELTS Certificate ( LEVEL B2 )
 
 
 
