@@ -2,6 +2,8 @@
 
 * **(+995) 599-34-51-46** 
 * [lika.kharatishvili.1@btu.edu.ge](lika.kharatishvili.1@btu.edu.ge) 
+* Telegram Username - @Likaxara
+* Skype - live:.cid.5b4f87fbbd8ee139
 * **Tbilisi, Georgia**  
 
 ## Summary:
