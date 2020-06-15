@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  font-family: "Lato", Arial, serif !important;
+}
+
+h2 {
+  color: rgb(56, 56, 56);
+}
+
+.contact-wrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.contact-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  background: linear-gradient(90deg, rgba(2, 2, 2, 0.8), rgba(26, 24, 24, 0.8)),
+    url("https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80")
+      no-repeat center center / cover;
+  object-fit: contain;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 230px;
+  margin: 20px 0;
+}
+.info i {
+  color: white;
+  font-size: 30px;
+  padding-right: 20px;
+  text-shadow: 2px 2px rgb(133, 133, 133);
+}
+.info span {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #25b9ca;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.info p {
+  font-size: 18px;
+  font-style: italic;
+
+  color: #cacaca;
+}
+
+.right-part {
+  color: black;
+  background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+
+  position: relative;
+}
+
+.right-part .summary h2 {
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+.right-part .summary p {
+  margin: 10px 20px;
+  line-height: 1.4;
+  letter-spacing: 0.8px;
+}
+
+.right-part .skills {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.right-part .skills h2 {
+  text-align: center;
+}
+
+.right-part .skills ul {
+  
+  list-style: none;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+}
+.right-part .skills li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 10px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px 15px;
+  background: #25b9ca;
+  
+}
+
+.right-part .skills li:hover {
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #25b9ca, 0 0 5px #25b9ca, 0 0 10px #25b9ca,
+    0 0 15px #25b9ca;
+}
+
+.right-part .education, .right-part .experience {
+  width: 100%;
+  line-height: 1.4;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.right-part .education h3, .right-part .experience h3 {
+  margin-top: 10px;
+ 
+}
+
+
+.right-part .english h3 {
+  margin-top: 30px;
+  color: #716a8f;
+}
