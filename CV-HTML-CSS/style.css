@@ -19,7 +19,7 @@ h2 {
   color: rgb(56, 56, 56);
 }
 
-.contact-wrapper {
+.wrapper {
   display: flex;
   height: 100%;
   width: 100%;
@@ -49,7 +49,7 @@ h2 {
   padding-right: 20px;
   text-shadow: 2px 2px rgb(133, 133, 133);
 }
-.info span {
+.info span .icon {
   text-transform: uppercase;
   font-size: 30px;
   color: #25b9ca;
@@ -57,7 +57,7 @@ h2 {
   display: inline-block;
 }
 
-.info p {
+.info .info-desc {
   font-size: 18px;
   font-style: italic;
 
@@ -67,7 +67,7 @@ h2 {
 .right-part {
   color: black;
   background-color: #ffffff;
-background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -81,7 +81,6 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 .right-part .summary h2 {
   margin-top: 20px;
   text-align: center;
-  
 }
 
 .right-part .summary p {
@@ -100,7 +99,6 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
 
 .right-part .skills ul {
-  
   list-style: none;
   width: 70%;
   margin: auto;
@@ -108,14 +106,12 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
 .right-part .skills li {
   display: inline-block;
-  margin-left: 15px;
-  margin-top: 10px;
+  margin: 10px 0 0 15px;
   color: white;
   border-radius: 8px;
   cursor: pointer;
   padding: 10px 15px;
   background: #25b9ca;
-  
 }
 
 .right-part .skills li:hover {
@@ -126,7 +122,8 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
     0 0 15px #25b9ca;
 }
 
-.right-part .education, .right-part .experience {
+.right-part .education,
+.right-part .experience {
   width: 100%;
   line-height: 1.4;
   margin-top: 20px;
@@ -134,14 +131,12 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
-.right-part .education h3, .right-part .experience h3 {
+.right-part .education h3,
+.right-part .experience h3 {
   margin-top: 10px;
- 
 }
-
 
 .right-part .english h3 {
   margin-top: 30px;
