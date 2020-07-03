@@ -1,0 +1,17 @@
+@font-face{
+    font-family: 'MalagaOT-RegItalic';
+    src: url(../dist/fonts/MalagaOT-RegItalic.otf);
+}
+
+
+@font-face{
+    font-family: 'TitilliumWeb-Bold';
+    src: url(../dist/fonts/TitilliumWeb-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'TitilliumWeb-Regular';
+    src: url(../dist/fonts/TitilliumWeb-Regular.ttf);
+}
+
+
